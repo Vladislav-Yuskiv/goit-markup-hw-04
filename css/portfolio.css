@@ -194,15 +194,13 @@ img {
 }
 .card-content {
   padding: 20px 24px;
-  border-right-width: 1 px;
+  border-width: 1px;
   border-right-style: solid;
   border-right-color: #eeeeee;
 
-  border-left-width: 1 px;
   border-left-style: solid;
   border-left-color: #eeeeee;
 
-  border-bottom-width: 1 px;
   border-bottom-style: solid;
   border-bottom-color: #eeeeee;
 }
@@ -244,6 +242,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .link-mail {
   margin-bottom: 9px;

@@ -359,10 +359,7 @@ p {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
-/* .clients-icon:hover,
-.clients-icon:focus {
-  fill: currentColor;
-} */
+
 /*  sections */
 .section-text {
   color: var(--primary-text-color);
@@ -400,7 +397,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  font-style: inherit;
+  font-style: normal;
 }
 .link-mail {
   margin-bottom: 9px;
