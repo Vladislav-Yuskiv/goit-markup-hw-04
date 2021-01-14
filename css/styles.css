@@ -115,7 +115,9 @@ p {
   margin-right: 50px;
 }
 .auth-nav .link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -132,6 +134,16 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.header-icon {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+.header-icon:hover,
+.header-icon:focus {
+  fill: var(--accent-color);
 }
 
 /* Hero */
@@ -207,6 +219,19 @@ p {
 .list-description .item:last-child {
   margin-right: 0;
 }
+.wrapper {
+  width: auto;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  padding: 25px 100px;
+}
+.wrapper-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .item .list-title {
   padding-bottom: 10px;
 }
@@ -273,6 +298,64 @@ p {
 .item .profession {
   padding-bottom: 30px;
 }
+.social-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 30px;
+}
+.social-list .link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-white-color);
+  border-radius: 50%;
+
+  width: 44px;
+  height: 44px;
+}
+.social-list .link:hover,
+.social-list .link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-list .icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+/* Section 4 */
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+}
+.clients-icon {
+  display: flex;
+  fill: #afb1b8;
+}
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
 /*  sections */
 .section-text {
   color: var(--primary-text-color);
@@ -327,9 +410,49 @@ p {
 .contacts-link:focus {
   color: var(--accent-color);
 }
-.icon {
-  width: 16px;
-  height: 12px;
-  fill: #757575;
-  outline: 1px solid black;
+.footer-wrap {
+  display: flex;
+}
+.footer-contacts {
+  margin-right: 70px;
+}
+.footer-social-name {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.social-footer .link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  width: 44px;
+  height: 44px;
+}
+.social-footer .link:hover,
+.social-footer .link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+.social-footer .item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-footer .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-white-color);
 }
