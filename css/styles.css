@@ -346,10 +346,12 @@ p {
   border-radius: 4px;
   width: 170px;
   height: 90px;
+
+  color: #afb1b8;
 }
 .clients-icon {
   display: flex;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -357,10 +359,10 @@ p {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
-.clients-icon:hover,
+/* .clients-icon:hover,
 .clients-icon:focus {
   fill: currentColor;
-}
+} */
 /*  sections */
 .section-text {
   color: var(--primary-text-color);
