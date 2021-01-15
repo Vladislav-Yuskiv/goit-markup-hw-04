@@ -10,7 +10,6 @@
   --buttom-text: #000000;
 }
 body {
-  background: #e5e5e5;
   font-style: normal;
   font-family: Roboto, sans-serif;
 }
@@ -159,6 +158,9 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   cursor: pointer;
+}
+.example-link {
+  text-decoration: none;
 }
 .example-list .item:hover,
 .example-list .item:focus {
