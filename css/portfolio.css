@@ -160,6 +160,7 @@ img {
   cursor: pointer;
 }
 .example-link {
+  display: block;
   text-decoration: none;
 }
 .example-link:hover,
